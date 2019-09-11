@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es-CL" xml:lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Login</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Css -->
+  <link  rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link  rel="stylesheet" href="assets/css/settings.css">
+  <link  rel="stylesheet" href="assets/css/login.css">
+  <link  rel="stylesheet" href="assets/css/icon.css">
+  <link  rel="stylesheet" href="assets/css/customize.css">
+
+</head>
+<body>
+  
+  <form class="wrapper-login transition-5s" >
+  <!--  <video autoplay loop class="select-img" > 
+      <source src="images/lightbulbs.webm" type="video/webm"> 
+      <source src="images/lightbulbs.mp4" type="video/mp4"> 
+      <source src="images/lightbulbs.ogg" type="video/ogg"> 
+    </video>  -->
+    <img class="select-img" alt="imagen de fondo" src="images/slider.jpg">
+    
+    <div class="loginbox lb-position-center lb-height-small lb-color">
+      
+      <div class="login-wrap rounded lb-color">
+        <div class="container">
+          <img class="rounded mx-auto d-block mb-5 brand" alt="logo" src="images/enovus_cl.png">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="inputname lb-text">RUT (sin puntos ni código verificador)</span>
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1"><i class="ic ic-user"></i></span>
+          </div>
+          <input type="text" class="form-control" placeholder="Ejm: 9876543" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-5">
+          <span class="inputname lb-text">Password</span>
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1"><i class="ic ic-padlock"></i></span>
+          </div>
+          <input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+        </div>
+        
+        <div class="input-group mb-3">
+          <button id="sendlogin" class="btn-press shadow lb-button" type="button" name="">Ingresar</button>
+        </div>
+
+        <div class="input-group mb-3">
+          <a class="recover-key lb-link" href="#">Olvidé mi contraseña</a>
+        </div>
+
+        <div class="row">
+          <span class="splitter-block"></span>
+          <a class="googlekey lb-link" href=""><img alt="Botón Google" src="assets/images/googlekey.png"><span>Ingresa con Google</span></a>
+        </div>
+
+      </div>
+    </div> 
+
+  </form>
+
+<!-- JS/ -->
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/login.js"></script>
+
+
+</body>
+</html>
