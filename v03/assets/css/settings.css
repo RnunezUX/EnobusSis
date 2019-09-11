@@ -1,0 +1,104 @@
+/*Font family*/
+/*
+@font-face {
+    font-family: 'OpenSans';
+        src: url('../fonts/OpenSans.eot');
+        src: url('../fonts/OpenSans.eot?#OpenSans') format('embedded-opentype'), 
+        url('../fonts/OpenSans.woff2') format('woff2'), 
+        url('../fonts/OpenSans.woff') format('woff'), 
+        url('../fonts/OpenSans.ttf') format('truetype'), 
+        url('../fonts/OpenSans.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Geometria';
+        src: url('../fonts/Geometria.eot');
+        src: url('../fonts/Geometria.eot?#Geometria') format('embedded-opentype'), 
+        url('../fonts/Geometria.woff2') format('woff2'), 
+        url('../fonts/Geometria.woff') format('woff'), 
+        url('../fonts/Geometria.ttf') format('truetype'), 
+        url('../fonts/Geometria.svg#Geometria') format('svg');
+}
+*/
+
+@font-face {
+    font-family: 'Roboto';
+        src: url('../fonts/roboto.eot');
+        src: url('../fonts/roboto.eot?#roboto') format('embedded-opentype'), 
+        url('../fonts/roboto.woff2') format('woff2'), 
+        url('../fonts/roboto.woff') format('woff'), 
+        url('../fonts/roboto.ttf') format('truetype'), 
+        url('../fonts/roboto.svg#roboto') format('svg');
+}
+
+
+body::-webkit-scrollbar {
+   width: 5px; /*=> ancho del scroll*/
+   background-color: #ffffff; /*=> Color del fondo principal */
+}
+body::-webkit-scrollbar-track {
+   background-color: rgba(0, 0, 0, 0.09); /*=> color de fondo del trayecto del scroll */
+}
+body::-webkit-scrollbar-thumb {
+   background-color: rgba(0,0,0,0.4); /*=> color del indicador del scroll */
+   border-radius: 0px; /*=> bordes redondeados */
+}
+
+
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+a { text-decoration: none!important; }
+label, input, button, a { display: block; padding-top:11px; padding-bottom: 11px; outline: none!important; }
+
+h1, h2, h3, h4, h5, h6, p, em, b, strong,form, input, label, select, textarea, div, section, table, th, tr, td, ul, li, ol, img, i { margin:0px; padding:0px;} 
+
+a:link,
+a:hover{ cursor: pointer; text-decoration:none;}
+
+ul, li { list-style:none; margin:0px; }
+
+button { border-style:solid;  border-width: 0px; border-color: transparent; text-decoration: none; cursor: pointer; }
+
+input, label, select, textarea, button { border-style:solid;  border-width: 0px; border-color: transparent; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; outline: none; } 
+
+
+
+
+/***************/
+/*Animate*/
+.transition-2s { 
+    transition-duration: 0.2, 0.2s, 0.2s;
+    transition-timing-function: linear, linear;
+    transition-delay: 0.2s, 0.2s, 0.2s; 
+}
+.transition-5s { 
+    transition-duration: 0.5s, 0.5s, 0.5s;
+    transition-timing-function: linear, linear;
+    transition-delay: 0.5s, 0.5s, 0.5s; 
+}
+.transition-7s{
+	transition-duration: 0.75s, 0.75s, 0.75s;
+     transition-timing-function: linear, linear;
+     transition-delay: 0.75s, 0.75s, 0.75s;
+}
+.transition-9s{
+	transition-duration: 0.9s, 0.9s, 0.9s;
+     transition-timing-function: linear, linear;
+     transition-delay: 0.9s, 0.9s, 0.9s;
+}
+.transition-11s{
+	transition-duration: 0.11s, 0.11s, 0.11s;
+     transition-timing-function: linear, linear;
+     transition-delay: 0.11s, 0.11s, 0.11s;
+}
+
+
